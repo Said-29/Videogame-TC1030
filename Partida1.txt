@@ -1,0 +1,7 @@
+Mundo1,Alsahim29
+mapa
+items,
+ojo_cthulu,vida,dano,drop
+cerebro_cthulu,vida,dano,drop
+devora_almas,vida,dano,drop
+moon_lord,vida,dano,drop

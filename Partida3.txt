@@ -1,0 +1,7 @@
+Mundo3,Juan85
+mapa3
+items,
+ojo_cthulu,vida,dano,drop
+cerebro_cthulu,vida,dano,drop
+devora_almas,vida,dano,drop
+moon_lord,vida,dano,drop
