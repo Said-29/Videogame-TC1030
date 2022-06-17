@@ -16,7 +16,7 @@ class Personaje{
         Personaje(string, int, int, string, int, int);
         void show_bag();
         void add_item(Item);
-        void set_figure(char);
+        void set_figure(string);
         string get_figure();
         int get_coord_x();
         void set_coord_x(int);
@@ -46,7 +46,7 @@ string Personaje::get_figure(){
     return figure;
 }
 
-void Personaje::set_figure(char f){
+void Personaje::set_figure(string f){
     figure = f;
 }
 
