@@ -69,7 +69,7 @@ void Principal::move(Cuadrante cuad){
             size_x = cuad.get_length();
             size_y = cuad.get_height();
 
-            set_coord_x(size_x % 2);
+            set_coord_x(size_x / 2);
             set_coord_y(size_y - 2);
 
             room = cuad.get_room();
@@ -97,7 +97,7 @@ void Principal::move(Cuadrante cuad){
             size_x = cuad.get_length();
             size_y = cuad.get_height();
 
-            set_coord_x(size_x % 2);
+            set_coord_x(size_x / 2);
             set_coord_y(1);
 
             room = cuad.get_room();
@@ -123,8 +123,8 @@ void Principal::move(Cuadrante cuad){
             size_x = cuad.get_length();
             size_y = cuad.get_height();
 
-            set_coord_x(size_x - 2);
-            set_coord_y(size_y%2);
+            set_coord_x(size_x - 3);
+            set_coord_y(size_y / 2);
 
             room = cuad.get_room();
             cuad.draw_in_coords(get_coord_x(), get_coord_y(), figura);
@@ -149,8 +149,8 @@ void Principal::move(Cuadrante cuad){
             size_x = cuad.get_length();
             size_y = cuad.get_height();
 
-            set_coord_x(size_x - 2);
-            set_coord_y(size_y%2);
+            set_coord_x(1);
+            set_coord_y(size_y / 2);
 
             room = cuad.get_room();
             cuad.draw_in_coords(get_coord_x(), get_coord_y(), figura);
