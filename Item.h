@@ -1,9 +1,13 @@
+#pragma once
+
 class Item{
     private:
         int valor;
         int tamano;
         string nombre;
     public:
+        Item();
+        Item(int, int, string);
         int get_valor();
         void set_valor(int);
         int get_tamano();
@@ -12,6 +16,18 @@ class Item{
         void set_nombre(string);
         void show_item();
 };
+
+Item::Item(){
+    valor = 0;
+    tamano = 0;
+    nombre = "N/A";
+}
+
+Item::Item(int v, int t, string n){
+    valor = v;
+    tamano = t;
+    nombre = n;
+}
 
 int Item::get_valor(){
     return valor;
@@ -40,5 +56,5 @@ void Item::set_nombre(string n){
 void Item::show_item(){
     cout << "Item: " << nombre << endl; 
     cout << "Valor: " << valor << endl;
-    cout << "Tamano: " << tamano << endl;
+    cout << "Tamano: " << tamano << endl << endl;
 }

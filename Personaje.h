@@ -22,6 +22,7 @@ class Personaje{
         void set_coord_x(int);
         int get_coord_y();
         void set_coord_y(int);
+        vector<Item> get_bagV();
 };
 
 Personaje::Personaje(){
@@ -40,6 +41,10 @@ Personaje::Personaje(string f, int v, int d, string n, int x, int y){
     nombre = n;
     coord_x = x;
     coord_y = y;
+}
+
+vector<Item> Personaje::get_bagV(){
+    return Bag;
 }
 
 string Personaje::get_figure(){
@@ -68,6 +73,12 @@ void Personaje::set_coord_y(int y){
 
 void Personaje::add_item(Item it1){
     Bag.push_back(it1);
+}
+
+void Personaje::show_bag(){
+    for(int i = 0;i < Bag.size(); i++){
+        Bag[0].show_item();
+    }
 }
 
 

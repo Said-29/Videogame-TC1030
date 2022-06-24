@@ -1,13 +1,13 @@
-2xxxxxxxxxxxxx.xxxxxxxxxxxxx.^^^^^^^^^^^^^^.xxxxxxxxxxxxx.xxxxxxxxxxxxx2
-x                                                                      x 
-x                                                                      x
-x                                                                      x
-.                                                                      .
-<                                                                      > 
-<                                                                      >
-<                                                                      >
-.                                                                      . 
-x                                                                      x
-x                                                                      x
-x                                                                      x
-.xxxxxxxxxxxxx.xxxxxxxxxxxxxx.vvvvvvvvvvvvv.xxxxxxxxxxxxx.xxxxxxxxxxxxx.
+2xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx2
+x                A                                    D                x 
+x         x     x  x     x    xxx        xx     x            x         x
+x                x            x       xx   o                           x
+x      x     x         xx   xxx                    x        x          x
+x           x    x x          x    x  x xxxxx        x     x      x    x 
+x      x              xxx      x    x**                                x
+x             x   x  x               xxxxx x   x     x     x           x
+x         x            x    x     x   xxxxx   x  x               x     x 
+x     x          x     x                 x     xx  x       x           x
+x         x    x         x         x xx  x    x    x      x      x     x
+x                               x  x  x               x                x
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxvvvvvvvvvvvvvxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

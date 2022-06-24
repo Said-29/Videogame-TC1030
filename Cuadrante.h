@@ -1,6 +1,8 @@
 #include "Mapa.h"
 #include "Personaje.h"
 
+#pragma once
+
 class Cuadrante: public Mapa{
     private:
         vector<string> cuadrante;
@@ -40,7 +42,25 @@ class Cuadrante: public Mapa{
         int get_height();
         void set_length();
         int get_length();
+        string get_archivo(string);
 };
+
+string Cuadrante::get_archivo(string a){
+    ifstream partida;
+    string str_input, arch1;
+
+    partida.open("Partida1.txt");
+
+        while(true){
+            getline(partida, str_input);
+            arch1 += str_input + "\n";
+            if(partida.eof()){break;};
+        }
+
+        partida.close();
+    
+    return arch1;
+}
 
 Cuadrante::Cuadrante(){
     name_cuad_txt = "N/A";
@@ -378,7 +398,7 @@ void Cuadrante::set_room(){
     string first, last, number;
     string::iterator it = cuadrante[0].end();
     first = cuadrante[0].at(0);
-    last = *(it - 1);
+    last = *(it - 2);
 
     if(last != "x" and last != "."){
         number = first + last;
